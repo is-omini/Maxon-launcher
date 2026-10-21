@@ -1,0 +1,20 @@
+{
+  "name": "floagg-game-launcher-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^44.9.0"
+  },
+  "dependencies": {
+    "systeminformation": "^5.33.16",
+    "wallpaper": "^7.3.1"
+  }
+}

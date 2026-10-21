@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="bg"></div>
+	<div id="overlay-top">
+		<div class="list">
+			<div>
+				<img src="https://floagg.com/share/cdn/69e6d8e1da467.webp" width="32px" height="32px" style="border-radius: 8px;">
+			</div>
+		</div>
+		<div class="list">
+			<div id="reseau">4</div>
+			<div id="batterie">20%</div>
+			<div id="horloge">Lun. 19 Oct. 18:30</div>
+			<div id="scan-status" style="color:#888;font:12px monospace"></div>
+		</div>
+	</div>
+	<main>
+		<section class="align-app">
+			<h1 id="title"></h1>
+			<section id="sidebars"></section>
+		</section>
+		<section class="overlay-bottom">
+			<div class="actions">
+				<span id="badge" class="badge stopped" style="display: none;">Arrêté</span>
+				
+				<button id="launch">
+					<span class="hint" id="hint-launch">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="12" cy="12" r="11.5" stroke="currentColor"/>
+							<path fill="currentColor" d="M17.8986 18H14.9767L14.13 15.3521H9.89661L9.05823 18H6.15295L10.486 6.09668H13.6652L17.8986 18ZM13.5157 13.2935L12.2374 9.29248C12.1434 8.99365 12.0769 8.63672 12.0382 8.22168H11.9718C11.9441 8.57031 11.875 8.91618 11.7643 9.25928L10.4694 13.2935H13.5157Z"/>
+						</svg>
+					</span>
+					<span>Jouer</span>
+				</button>
+				
+				<button id="kill" class="danger">
+					<span class="hint" id="hint-kill">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="12" cy="12" r="11.5" stroke="currentColor"/>
+							<path fill="currentColor" d="M17.3816 18H14.2024L12.1521 14.1235C12.0746 13.9797 11.9944 13.714 11.9114 13.3267H11.8782C11.8394 13.5093 11.7481 13.786 11.6042 14.1567L9.54565 18H6.34985L10.1433 12.0483L6.67358 6.09668H9.93579L11.6375 9.66602C11.7703 9.94824 11.8892 10.283 11.9944 10.6704H12.0276C12.094 10.438 12.2185 10.0921 12.4011 9.63281L14.2937 6.09668H17.282L13.7126 11.9985L17.3816 18Z"/>
+						</svg>
+					</span>
+					<span>Fermer</span>
+				</button>
+				
+				<button id="btn-rescan">
+					<span class="hint" id="hint-rescan"></span>
+					Rescanner
+				</button>
+				
+				<button id="quit" style="display: none;">
+					<span class="hint" id="hint-quit"></span>
+					Quitter
+				</button>
+			</div>
+		</section>
+	</main>
+	<script src="renderer.js"></script>
+<script>
+	// Abréviations françaises
+	const jours = ['Dim.', 'Lun.', 'Mar.', 'Mer.', 'Jeu.', 'Ven.', 'Sam.'];
+	const mois  = ['Jan.', 'Fév.', 'Mar.', 'Avr.', 'Mai', 'Juin', 'Juil.', 'Août', 'Sep.', 'Oct.', 'Nov.', 'Déc.'];
+
+	function afficherDateHeure() {
+		const now = new Date();
+
+		const jour	= jours[now.getDay()];
+		const numero  = String(now.getDate()).padStart(2, '0');
+		const moisNom = mois[now.getMonth()];
+		const heures  = String(now.getHours()).padStart(2, '0');
+		const minutes = String(now.getMinutes()).padStart(2, '0');
+
+		document.getElementById('horloge').textContent = `${jour} ${numero} ${moisNom} ${heures}:${minutes}`;
+	}
+
+	// Affichage immédiat puis mise à jour chaque seconde
+	afficherDateHeure();
+	setInterval(afficherDateHeure, 1000);
+</script>
+</body>
+</html>

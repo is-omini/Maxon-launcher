@@ -1,0 +1,341 @@
+[
+  {
+    "id": "steam-1128480",
+    "titre": "Nice Jumper",
+    "description": "Jeu Steam détecté automatiquement",
+    "icon": "https://steamcdn-a.akamaihd.net/steam/apps/1128480/header.jpg",
+    "background": "https://steamcdn-a.akamaihd.net/steam/apps/1128480/library_hero.jpg",
+    "music": "",
+    "path": "/Users/julie/Library/Application Support/Steam/steamapps/common/Nice Jumper/NiceJumper.app",
+    "group": "Détecté",
+    "launchCount": 3,
+    "lastLaunchedAt": 1792598911064
+  },
+  {
+    "id": "steam-248570",
+    "titre": "Toribash",
+    "description": "Jeu Steam détecté automatiquement",
+    "icon": "https://steamcdn-a.akamaihd.net/steam/apps/248570/header.jpg",
+    "background": "https://steamcdn-a.akamaihd.net/steam/apps/248570/library_hero.jpg",
+    "music": "",
+    "path": "/Users/julie/Library/Application Support/Steam/steamapps/common/Toribash/Toribash.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "steam-250460",
+    "titre": "Bridge Constructor",
+    "description": "Jeu Steam détecté automatiquement",
+    "icon": "https://steamcdn-a.akamaihd.net/steam/apps/250460/header.jpg",
+    "background": "https://steamcdn-a.akamaihd.net/steam/apps/250460/library_hero.jpg",
+    "music": "",
+    "path": "/Users/julie/Library/Application Support/Steam/steamapps/common/BridgeConstructor/Bridge Constructor.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "steam-684410",
+    "titre": "Bridge Constructor Portal",
+    "description": "Jeu Steam détecté automatiquement",
+    "icon": "https://steamcdn-a.akamaihd.net/steam/apps/684410/header.jpg",
+    "background": "https://steamcdn-a.akamaihd.net/steam/apps/684410/library_hero.jpg",
+    "music": "",
+    "path": "/Users/julie/Library/Application Support/Steam/steamapps/common/Bridge Constructor Portal/Bridge_Constructor_Portal.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "steam-734750",
+    "titre": "PickCrafter",
+    "description": "Jeu Steam détecté automatiquement",
+    "icon": "https://steamcdn-a.akamaihd.net/steam/apps/734750/header.jpg",
+    "background": "https://steamcdn-a.akamaihd.net/steam/apps/734750/library_hero.jpg",
+    "music": "",
+    "path": "/Users/julie/Library/Application Support/Steam/steamapps/common/PickCrafter/PickCrafter.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-roblox",
+    "titre": "Roblox",
+    "description": "Jeu détecté automatiquement",
+    "icon": "https://static.wikia.nocookie.net/roblox/images/c/cc/RobloxPS5Icon.jpg/revision/latest?cb=20230921063411",
+    "background": "assets/backgrounds/roblox.png",
+    "music": "assets/music/Roblox music - Chill Jazz.mp3",
+    "path": "/Applications/Roblox.app",
+    "group": "Détecté",
+    "launchCount": 7,
+    "lastLaunchedAt": 1792586089166
+  },
+  {
+    "id": "disk-minecraft",
+    "titre": "Minecraft",
+    "description": "Jeu détecté automatiquement",
+    "icon": "https://static.wikia.nocookie.net/logopedia/images/f/f9/Minecraft_Bedrock_icon.svg/revision/latest/scale-to-width-down/250?cb=20230924021517",
+    "background": "assets/backgrounds/minecraft.jpg",
+    "music": "",
+    "path": "/Volumes/Macintosh HD/Applications/Minecraft.app",
+    "group": "Détecté",
+    "launchCount": 5,
+    "lastLaunchedAt": 1792598131043
+  },
+  {
+    "id": "disk-android-studio",
+    "titre": "SILENT HILL f",
+    "description": "Jeu détecté automatiquement",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Silent_Hill_f_logo.png?utm_source=fr.wikipedia.org&utm_campaign=index&utm_content=original",
+    "icon": "https://images.steamusercontent.com/ugc/15934660627560656416/89760F437962D63A41B12E8A2D13BE846365FD29/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+    "background": "https://images7.alphacoders.com/140/thumb-1920-1407268.jpg",
+    "music": "assets/music/Silent Hill F - Soundtrack - Mayoi Uta.mp3",
+    "path": "/Applications/Android Studio.app",
+    "group": "Détecté",
+    "launchCount": 21,
+    "lastLaunchedAt": 1792598109896
+  },
+  {
+    "id": "disk-arc",
+    "titre": "Arc",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/arc.png",
+    "background": "",
+    "music": "",
+    "path": "/Applications/Arc.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-blender",
+    "titre": "Blender",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/blender.png",
+    "background": "",
+    "music": "",
+    "path": "/Applications/Blender.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-bluestacks",
+    "titre": "BlueStacks",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/bluestacks.png",
+    "background": "",
+    "music": "",
+    "path": "/Applications/BlueStacks.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-discord-canary",
+    "titre": "Discord Canary",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/discord-canary.png",
+    "background": "",
+    "music": "",
+    "path": "/Applications/Discord Canary.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-gimp",
+    "titre": "GIMP",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/gimp.png",
+    "background": "",
+    "music": "",
+    "path": "/Applications/GIMP.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-github-desktop",
+    "titre": "GitHub Desktop",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/github-desktop.png",
+    "background": "",
+    "music": "",
+    "path": "/Applications/GitHub Desktop.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-google-chrome",
+    "titre": "Google Chrome",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/google-chrome.png",
+    "background": "",
+    "music": "",
+    "path": "/Applications/Google Chrome.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-minecraft-2",
+    "titre": "Minecraft",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/minecraft.png",
+    "background": "",
+    "music": "",
+    "path": "/Applications/Minecraft.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-robloxstudio",
+    "titre": "RobloxStudio",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/robloxstudio.png",
+    "background": "",
+    "music": "",
+    "path": "/Applications/RobloxStudio.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-steam",
+    "titre": "Steam",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/steam.png",
+    "background": "",
+    "music": "",
+    "path": "/Applications/Steam.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-tiktok-live-studio",
+    "titre": "TikTok LIVE Studio",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/tiktok-live-studio.png",
+    "background": "",
+    "music": "",
+    "path": "/Applications/TikTok LIVE Studio.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-whatsapp",
+    "titre": "WhatsApp",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/whatsapp.png",
+    "background": "",
+    "music": "",
+    "path": "/Applications/WhatsApp.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-android-studio-2",
+    "titre": "Android Studio",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/android-studio.png",
+    "background": "",
+    "music": "",
+    "path": "/Volumes/Macintosh HD/Applications/Android Studio.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-arc-2",
+    "titre": "Arc",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/arc.png",
+    "background": "",
+    "music": "",
+    "path": "/Volumes/Macintosh HD/Applications/Arc.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-blender-2",
+    "titre": "Blender",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/blender.png",
+    "background": "",
+    "music": "",
+    "path": "/Volumes/Macintosh HD/Applications/Blender.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-bluestacks-2",
+    "titre": "BlueStacks",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/bluestacks.png",
+    "background": "",
+    "music": "",
+    "path": "/Volumes/Macintosh HD/Applications/BlueStacks.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-discord-canary-2",
+    "titre": "Discord Canary",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/discord-canary.png",
+    "background": "",
+    "music": "",
+    "path": "/Volumes/Macintosh HD/Applications/Discord Canary.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-gimp-2",
+    "titre": "GIMP",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/gimp.png",
+    "background": "",
+    "music": "",
+    "path": "/Volumes/Macintosh HD/Applications/GIMP.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-github-desktop-2",
+    "titre": "GitHub Desktop",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/github-desktop.png",
+    "background": "",
+    "music": "",
+    "path": "/Volumes/Macintosh HD/Applications/GitHub Desktop.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-google-chrome-2",
+    "titre": "Google Chrome",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/google-chrome.png",
+    "background": "",
+    "music": "",
+    "path": "/Volumes/Macintosh HD/Applications/Google Chrome.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-roblox-2",
+    "titre": "Roblox",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/roblox.png",
+    "background": "",
+    "music": "",
+    "path": "/Volumes/Macintosh HD/Applications/Roblox.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-robloxstudio-2",
+    "titre": "RobloxStudio",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/robloxstudio.png",
+    "background": "",
+    "music": "",
+    "path": "/Volumes/Macintosh HD/Applications/RobloxStudio.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-steam-2",
+    "titre": "Steam",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/steam.png",
+    "background": "",
+    "music": "",
+    "path": "/Volumes/Macintosh HD/Applications/Steam.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-tiktok-live-studio-2",
+    "titre": "TikTok LIVE Studio",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/tiktok-live-studio.png",
+    "background": "",
+    "music": "",
+    "path": "/Volumes/Macintosh HD/Applications/TikTok LIVE Studio.app",
+    "group": "Détecté"
+  },
+  {
+    "id": "disk-whatsapp-2",
+    "titre": "WhatsApp",
+    "description": "Jeu détecté automatiquement",
+    "icon": "assets/icons/detected/whatsapp.png",
+    "background": "",
+    "music": "",
+    "path": "/Volumes/Macintosh HD/Applications/WhatsApp.app",
+    "group": "Détecté"
+  }
+]

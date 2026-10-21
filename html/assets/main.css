@@ -1,0 +1,181 @@
+:root {
+	--win-padding: 64px;
+}
+* {
+	padding: 0;
+	margin: 0;
+
+	outline: none;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgba(44, 51, 58);
+	color: #fff;
+	fill: #fff;
+
+	font-size: 16px;
+}
+
+svg {
+	color: inherit;
+	fill: inherit;
+}
+
+#bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	background-image: url("https://sm.ign.com/ign_fr/review/d/death-stra/death-stranding-review-damaged-goods_wztc.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+main {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(0deg,rgba(0, 0, 0, .9) 0%, transparent 100%);
+}
+
+.overlay-top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	color: #fff;
+	fill: #fff;
+
+	padding-top: calc(var(--win-padding) / 2);
+	padding-left: var(--win-padding);
+	padding-right: var(--win-padding);
+}
+
+.overlay-top .left,
+.overlay-top .right {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.overlay-top svg {
+	width: 16px;
+	height: 16px;
+}
+
+.overlay {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding-left: var(--win-padding);
+	padding-right: var(--win-padding);
+	padding-bottom: calc(var(--win-padding) / 2);
+}
+
+.overlay .actions {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.overlay button {
+	border: none;
+	background-color: transparent;
+
+	color: #fff;
+	fill: #fff;
+
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.overlay button svg {
+	width: 24px;
+	height: 24px;
+}
+
+.align-details {
+	padding-left: calc(var(--win-padding) * 2.2);
+	padding-right: calc(var(--win-padding) * 2.2);
+}
+
+.align-details .game-source {
+	margin-top: 8px;
+}
+
+
+#sidebars {
+	display: flex;
+	flex-direction: column; /* Ancre la première ligne en bas */
+	gap: 24px;
+	position: relative;
+}
+.sidebar {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	gap: 16px;
+	position: relative;
+	flex-shrink: 0;
+}
+
+.item {
+	flex: 0 0 auto;
+	will-change: transform;
+
+	width: 148px;
+	height: 148px;
+
+	position: relative;
+}
+
+.item::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: solid 2px transparent;
+}
+.sidebar.active .item.active::after {
+	content: "";
+	border: solid 2px #fff;
+	animation: loa 1.5s infinite;
+}
+
+@keyframes loa {
+	0% {
+		transform:scale(1.0);
+		opacity: 1.0;
+	}
+	100% {
+		transform:scale(1.1);
+		opacity: 0.0;
+	}
+}
+
+.sidebar.active .item.active {
+	width: 164px;
+	height: 164px;
+}
+
+.item .icon {
+	width: 100%;
+	height: 100%;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
